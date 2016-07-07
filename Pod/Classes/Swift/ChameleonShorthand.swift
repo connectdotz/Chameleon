@@ -135,6 +135,10 @@ public func RandomFlatColor() -> UIColor {
     return UIColor.randomFlatColor()
 }
 
+public func RandomFlatColor(colors:[UIColor]) -> UIColor {
+    return UIColor(randomColorInArray:colors)
+}
+
 public func ClearColor() -> UIColor {
     return UIColor.clearColor()
 }

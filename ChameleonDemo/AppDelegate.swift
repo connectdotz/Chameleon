@@ -21,6 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             withSecondaryColor: FlatBlue(),
             andContentStyle: UIContentStyle.Contrast)
         
+//        uncomment below to style everything except Button
+//        Chameleon.setGlobalThemeUsingPrimaryColor(FlatMint(),
+//            withSecondaryColor: FlatBlue(),
+//            andContentStyle: UIContentStyle.Contrast,
+//            options: UIAppearanceOptions.All.exclusiveOr(.Button))
+        
         return true
     }
 
